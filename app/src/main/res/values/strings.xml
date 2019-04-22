@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">AccepticTest</string>
+
+    <string name="native_upper_case">NATIVE</string>
+    <string name="string_upper_case">WEB</string>
+    <string name="button_upper_case">BUTTON</string>
+
+    <string name="msg_rendering_error">Rendering error</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="@dimen/margin_large"
+             tools:context=".layer.ui.nat.NativeFragment">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/native_upper_case"
+              tools:ignore="RtlCompat"/>
+
+    <TextView android:id="@+id/btn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@android:color/transparent"
+              android:text="@string/button_upper_case"
+              android:textColor="@android:color/white"
+              android:padding="@dimen/margin_large"
+              tools:background="@android:color/holo_red_light"/>
+
+</FrameLayout>
